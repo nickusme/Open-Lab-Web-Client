@@ -1,0 +1,28 @@
+.Introduction {
+	margin: 2rem 10rem 2rem 10rem;
+	border-radius: 16px;
+	height: 60vh;
+	box-shadow: 0 0 20px rgba(251, 215, 251, 0.484);
+}
+
+.Introduction p {
+	font-size: 1.15rem !important;
+	color: rgb(196, 185, 206) !important;
+}
+
+.Introduction h3 {
+	text-align: center !important;
+	color: rgba(214, 188, 236, 0.582) !important;
+}
+
+.Introduction h1 {
+	text-align: center !important;
+	color: rgb(236, 222, 246) !important;
+}
+
+.Introduction
+	.awsui_content_14iqq_1x1rn_189.awsui_with-paddings_14iqq_1x1rn_263:not(
+		#\9
+	) {
+	background-color: rgb(46, 34, 55);
+}

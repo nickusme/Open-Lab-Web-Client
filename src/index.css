@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+		'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+		'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	height: 100vh;
+	background-size: 100% 100%;
+	background-position: 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px,
+		0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+	background-image: radial-gradient(
+			18% 28% at 24% 50%,
+			#627170ff 7%,
+			#073aff00 100%
+		),
+		radial-gradient(18% 28% at 18% 71%, #8c535359 6%, #073aff00 100%),
+		radial-gradient(70% 53% at 36% 76%, #2e3094ff 0%, #073aff00 100%),
+		radial-gradient(42% 53% at 15% 94%, #a4a4a4ff 7%, #073aff00 100%),
+		radial-gradient(42% 53% at 34% 72%, #966185ff 7%, #073aff00 100%),
+		radial-gradient(18% 28% at 35% 87%, #80836dff 7%, #073aff00 100%),
+		radial-gradient(31% 43% at 7% 98%, #4c5b5bff 24%, #073aff00 100%),
+		radial-gradient(21% 37% at 72% 23%, #8a788a82 24%, #073aff00 100%),
+		radial-gradient(35% 56% at 91% 74%, #5f4491f5 9%, #073aff00 100%),
+		radial-gradient(74% 86% at 67% 38%, #404d40f5 24%, #073aff00 100%),
+		linear-gradient(125deg, #323066ff 1%, #645290ff 99%);
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
