@@ -25,9 +25,29 @@ const ApplicationContextProvider = ({ children }) => {
 		setLocations(newValues);
 	};
 
+	const getItemsAndLocations = () => {
+		//TODO: fetch items and locations from webserver
+	};
+
+	const getLocationForItem = (itemName) => {
+		//TODO: fetch location for item from webserver
+	};
+
+	const updateLocationForItem = (itemName, location) => {
+		//TODO: update location for item through webserver
+	};
+
 	return (
 		<ApplicationContext.Provider
-			value={{ items, locations, updateItems, updateLocations }}>
+			value={{
+				items,
+				locations,
+				updateItems,
+				updateLocations,
+				getItemsAndLocations,
+				getLocationForItem,
+				updateLocationForItem,
+			}}>
 			{children}
 		</ApplicationContext.Provider>
 	);

@@ -22,7 +22,9 @@ function MoreInfo() {
 									</a>
 								</li>
 								<li>
-									<a href=''>Link to web client repository</a>
+									<a href='https://github.com/nickusme/Open-Lab-Web-Client'>
+										Link to web client repository
+									</a>
 								</li>
 							</ul>
 							<br />
